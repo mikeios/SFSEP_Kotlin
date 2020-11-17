@@ -1,11 +1,15 @@
 package com.example.sfsep.vaccins
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat.getSystemService
 import androidx.recyclerview.widget.RecyclerView
+import com.example.sfsep.PopUpWindow
 import com.example.sfsep.R
+import com.example.sfsep.edss.adapters.EdssPfDetailCell
 import kotlinx.android.synthetic.main.cell_edss_pf_detail.view.*
 
 class FaqAdapter(val faqArray:Array<String>,
@@ -26,7 +30,11 @@ class FaqAdapter(val faqArray:Array<String>,
         }
 
         override fun onClick(p0: View?) {
-            TODO()
+            val intent = Intent(rootActivity, PopUpWindow::class.java)
+            intent.putExtra("answer", answers[adapterPosition])
+            rootActivity.startActivity(intent)
+
+
         }
     }
 
