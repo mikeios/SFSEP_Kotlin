@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vaccin_naif">Patient naïf / au diagnostic</string>
+    <string name="vaccin_immunomodulateur">Patient sous immunomodulateur</string>
+    <string name="vaccin_immunosuppresseur">Patient sous immunosuppresseur</string>
+    //Assistant
+    <string name="vaccin_assistant">Assistant</string>
+    <string name="vaccin_assistant_detail">Besoin d\'aide pour déterminer les vaccins à proposer à votre patient?</string>
+    <string name="vaccin_textes_reference">Textes de référence</string>
+    <string name="vaccin_texte_et_ressources">Texte intégral et ressources</string>
+    <string name="vaccin_resume">Résumé des recommandations</string>
+    <string name="vaccin_calendrier">Le calendrier vaccinal</string>
+    <string name="vaccin_carnetDeSante">Disposez vous du carnet de vaccinations et/ou de résultats de sérologies?</string>
+    <string name="vaccin_DDN">Date de naissance (MM/AAAA)</string>
+    <string name="vaccin_tttActuel">Traitement actuel</string>
+    <string name="vaccin_projetIS">Traitement immunosuppresseur envisagé</string>
+    <string name="vaccin_voyages">Voyages fréquents à l\'étranger</string>
+    <string name="vaccin_ctcTroisMois">Corticoïdes dans les 3 mois précédents</string>
+    <string name="vaccin_highEDSS">EDSS ≧ 3</string>
+    <string name="vaccin_recentVZV">A reçu vaccin VZV dans les 3 mois</string>
+    <string name="vaccin_recentVVA">A reçu vaccin vivant autre dans les 3 mois</string>
+    <string name="vaccin_recentInert">A reçu vaccin inerte dans les 3 mois</string>
+    <string name="vaccin_cocooning">Situation de cocooning</string>
+    <string name="vaccin_lastDTP">Dernier rappel DTP (MM/AAAA), 0 si inconnu</string>
+    <string name="vaccin_NbROR">ROR: Nombre d\'injections reçues</string>
+    <string name="vaccin_NbVHB">VHB: Nombre d\'injections reçues</string>
+    <string name="vaccin_vaccinVZV">Vaccin VZV</string>
+    <string name="vaccin_vaccinVHA">Vaccin VHA</string>
+    <string name="vaccin_vaccinGrippe">Vaccin grippe saisonnière cette année</string>
+    <string name="vaccin_vaccinPneumo">Vaccin anti pneumococcique</string>
+    <string name="vaccin_VZV">VZV</string>
+    <string name="vaccin_VHA">VHA</string>
+    <string name="vaccin_AcHbS">Ac anti HbS</string>
+    <string name="vaccin_AcHbC">Ac anti HbC</string>
+    <string name="vaccin_AgHbS">Ag HbS</string>
+</resources>

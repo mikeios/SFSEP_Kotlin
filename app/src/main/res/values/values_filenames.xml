@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cguFile">CGU.pdf</string>
+    <string name="file_vaccin_reco_naif">vaccins/vaccin_reco0.pdf</string>
+    <string name="file_vaccin_reco_immunomodulateur">vaccins/vaccin_reco1.pdf</string>
+    <string name="file_vaccin_reco_immunosuppresseur">vaccins/vaccin_reco2.pdf</string>
+</resources>
