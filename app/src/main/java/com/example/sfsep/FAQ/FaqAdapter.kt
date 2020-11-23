@@ -1,15 +1,13 @@
-package com.example.sfsep.vaccins
+package com.example.sfsep.FAQ
 
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat.getSystemService
 import androidx.recyclerview.widget.RecyclerView
 import com.example.sfsep.PopUpWindow
 import com.example.sfsep.R
-import com.example.sfsep.edss.adapters.EdssPfDetailCell
 import kotlinx.android.synthetic.main.cell_edss_pf_detail.view.*
 
 class FaqAdapter(val faqArray:Array<String>,
@@ -38,7 +36,7 @@ class FaqAdapter(val faqArray:Array<String>,
         }
     }
 
-    override fun onCreateViewHolder(p0: ViewGroup, p1: Int): FaqAdapter.FaqViewHolder {
+    override fun onCreateViewHolder(p0: ViewGroup, p1: Int): FaqViewHolder {
         // 1 - Charger la vue en XML
         val rootView = LayoutInflater.from(p0.context).inflate(R.layout.cell_edss_pf_detail, p0, false)
 

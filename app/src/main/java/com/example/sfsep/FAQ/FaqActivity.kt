@@ -1,4 +1,4 @@
-package com.example.sfsep
+package com.example.sfsep.FAQ
 
 import android.os.Bundle
 import android.view.Menu
@@ -6,8 +6,8 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.sfsep.R
 import com.example.sfsep.generalModel.MenuManager
-import com.example.sfsep.vaccins.FaqAdapter
 import kotlinx.android.synthetic.main.activity_faq.*
 
 class FaqActivity : AppCompatActivity() {

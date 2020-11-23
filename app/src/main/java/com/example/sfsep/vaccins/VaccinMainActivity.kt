@@ -6,7 +6,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.example.sfsep.FaqActivity
+import com.example.sfsep.FAQ.FaqActivity
 import com.example.sfsep.R
 import com.example.sfsep.generalModel.MenuManager
 import com.example.sfsep.generalModel.WebsiteManager

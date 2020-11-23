@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".PopUpWindow"></activity>
-        <activity android:name=".FaqActivity" />
+        <activity android:name=".FAQ.FaqActivity" />
         <activity android:name=".vaccins.VaccinSummaryActivity" />
         <activity android:name=".UtiMainActivity" />
         <activity android:name=".vaccins.VaccinMainActivity" />
