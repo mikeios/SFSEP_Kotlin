@@ -103,4 +103,6 @@
     <string name="Vaccins_Recommandes">Vaccins recommandés</string>
     <string name="Vaccins_Interdits">Vaccins interdits</string>
     <string name="Informations_diverses">Informations diverses</string>
+    <string name="vaccins_effectues">Vaccins effectués</string>
+    <string name="serologies">Sérologies</string>
 </resources>
