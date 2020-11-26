@@ -34,4 +34,9 @@
     <string name="EDSSAlertTitle">Déficit moteur sévère</string>
     <string name="EDSSAlertMessage">En cas de déficit moteur sévère, il est possible de ne pas prendre en compte le paramètre cérébelleux si celui ci n\'est pas évaluable.\nVoulez vous exclure l\'évaluation du paramètre cérebelleux?</string>
 
+    //Disclaimers
+    <string name="disclaimer_title">Avertissement</string>
+    <string name="disclaimer_message">Cet assistant permet d\'obtenir des conseils concernant la conduite à tenir à proposer à votre patient.\nIl ne s\'agit pas d\'un outil de diagnostic ou de prise de décision médicale.</string>
+    <string name="alert_invalidData_title">Données invalides</string>
+    <string name="alert_ddn_message">Entrer une date de naissance valide au format MM/AAAA</string>
 </resources>

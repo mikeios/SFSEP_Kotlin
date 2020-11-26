@@ -1,7 +1,14 @@
-package com.example.sfsep.vaccins
+package com.example.sfsep.vaccins.model
 
+import android.app.Application
 import android.content.res.Resources
+import android.content.res.loader.ResourcesLoader
+import android.content.res.loader.ResourcesProvider
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.res.ResourcesCompat
+import com.example.sfsep.MainActivity
 import com.example.sfsep.R
+import com.example.sfsep.generalModel.ResourcesManager.getResourceString
 
 // Classe Vaccins
 class Vaccin(
@@ -13,9 +20,7 @@ class Vaccin(
 
 }
 
-fun getResourceString(id: Int) : String {
-    return Resources.getSystem().getString(id)
-}
+
 
 // Les vaccins de base
 
@@ -34,7 +39,8 @@ var VZV = Vaccin(
     "VZV",
     getResourceString(R.string.commentVZV),
     true,
-    !VaccinAssistantExpert.seroVZV)
+    !VaccinAssistantExpert.seroVZV
+)
 var VHA = Vaccin(
     getResourceString(R.string.VHA),
     getResourceString(R.string.commentVHA),

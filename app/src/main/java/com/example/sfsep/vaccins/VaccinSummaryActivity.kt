@@ -41,4 +41,5 @@ class VaccinSummaryActivity : AppCompatActivity() {
     fun immunosuppresseurButtonTouched(sender: View) {
         pdfManager.showPDFFile(R.string.file_vaccin_reco_immunosuppresseur)
     }
+
 }

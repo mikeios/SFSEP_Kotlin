@@ -1,6 +1,7 @@
 package com.example.diaporamaphotos
 
 import android.content.res.Resources
+import com.example.sfsep.R
 
 /*interface UtiTreatmentHelperDelegate {
     fun refreshUI()

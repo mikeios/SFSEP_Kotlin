@@ -33,7 +33,8 @@ class VaccinMainActivity : AppCompatActivity() {
     }
 
     fun assistantButtonTouched(sender: View) {
-        println("C'est parti pour l'assistant")
+        val intent = Intent(this, VaccinAssistantOne::class.java)
+        startActivity(intent)
     }
 
     fun texteIntegralButtonTouched(sender: View) {

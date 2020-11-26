@@ -1,25 +1,19 @@
-package com.example.sfsep.vaccins
+package com.example.sfsep.vaccins.model
 
-import android.app.Application
-import android.content.res.Resources
-import android.os.Build
-import android.text.BoringLayout
-import androidx.annotation.RequiresApi
 import com.example.sfsep.R
+import com.example.sfsep.generalModel.ResourcesManager.getResourceString
 import java.lang.Exception
 import java.time.LocalDate
-import java.time.chrono.ChronoLocalDate
 import java.time.format.DateTimeFormatter
-import java.util.*
 import kotlin.properties.Delegates
 
 object VaccinAssistant {
     // Gestion des dates
-    val formatter = DateTimeFormatter.ofPattern("dd MM yyyy")
+    val formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy")
 
 
     var dateDeNaissanceString : String by Delegates.observable("") {
-        prep, old, new ->
+            prep, old, new ->
         ddnIsValid = isValidDate(new)
         if (dateDeNaissance != null) {
             val date1980String = "01 01 1980"
@@ -29,19 +23,16 @@ object VaccinAssistant {
     }
 
     var ddnIsValid = false
-    var dateDeNaissance:LocalDate? = null
+    var dateDeNaissance: LocalDate? = null
     var before1980 = false
 
 
 
 
-    private fun isValidDate(dateString:String) : Boolean {
-
-
+     fun isValidDate(dateString:String) : Boolean {
         try {
-            dateDeNaissance = LocalDate.parse(dateString, formatter)
+            dateDeNaissance = LocalDate.parse("01/" + dateString, formatter)
         } catch (pe: Exception){
-            TODO("Message d'erreur à afficher")
             return false;
         }
         return true;
@@ -59,9 +50,9 @@ object VaccinAssistant {
 
     var vzvRecent : Boolean by Delegates.observable(false)  {
             prep, old, new ->
-            VaccinAssistantExpert.seroVZV = new
-            VaccinAssistantExpert.vzvFait = vzvRecent
-            VZV.recommandé = !new
+        VaccinAssistantExpert.seroVZV = new
+        VaccinAssistantExpert.vzvFait = vzvRecent
+        VZV.recommandé = !new
     }
     var vvaRecent = false
     var viRecent = false
@@ -89,7 +80,8 @@ object VaccinAssistant {
             "VZV",
             getResourceString(R.string.commentVZV),
             true,
-            !VaccinAssistantExpert.seroVZV)
+            !VaccinAssistantExpert.seroVZV
+        )
         VHA = Vaccin(
             getResourceString(R.string.VHA),
             getResourceString(R.string.commentVHA),

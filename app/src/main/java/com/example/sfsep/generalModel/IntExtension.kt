@@ -1,6 +1,7 @@
 package com.example.diaporamaphotos
 
 import android.content.res.Resources
+import com.example.sfsep.R
 
 fun Int.daysString():String {
     when (this) {

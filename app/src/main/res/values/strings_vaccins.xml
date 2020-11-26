@@ -33,6 +33,9 @@
     <string name="vaccin_AcHbS">Ac anti HbS</string>
     <string name="vaccin_AcHbC">Ac anti HbC</string>
     <string name="vaccin_AgHbS">Ag HbS</string>
+    <string name="ui_naif">Naïf</string>
+    <string name="ui_immunomodulateur">Immunomodulateur</string>
+    <string name="ui_immunosuppresseur">Immunosuppresseur</string>
     //Vaccins et conseils
     <string name="quandVacciner">Vaccination possible sans restriction particulière</string>
     <string name="quandVaccinerDeux">"Attendre au moins 3 mois après l\'arrêt du traitement immunosuppresseur actuel avant d\'administrer un vaccin vivant (6 mois pour un anti CD20).\n</string>
@@ -42,7 +45,7 @@
     <string name="delaiVTdeux">Attendre au moins 6 semaines après l\'administration du vaccin VZV \n</string>
     <string name="delaiVTtrois">Attendre au moins 4 semaines après l\'administration des vaccin vivants hors VZV (6 semaines pour un anti CD20) \n</string>
     <string name="delaiVTquatre">Attendre au moins 2 semaines après l\'administration des vaccin inertes \n</string>
-    <string name="delaiVTcinq">Patient sous immunosuppresseur. Les vaccins inertes peuvent être administrés mais leur efficacité peut être légèrement diminuée. Pour les immunosuppresseurs administrés par voie intraveineuse, on peut conseiller d\effectuer la vaccination à distance d'une perfusion.</string>
+    <string name="delaiVTcinq">Patient sous immunosuppresseur. Les vaccins inertes peuvent être administrés mais leur efficacité peut être légèrement diminuée. Pour les immunosuppresseurs administrés par voie intraveineuse, on peut conseiller d\'effectuer la vaccination à distance d\'une perfusion.</string>
     <string name="delaiVTsix">Pas de restriction particulière si le patient ne doit pas démarrer d\'immunosuppresseur.</string>
     <string name="coAdministration">Les vaccins peuvent être co-administrés le même jour sur des sites différents.\n En revanche, si deux vaccins vivants atténués ne sont pas administrés le même jour, alors un délai minimum de 4 semaines doit être respecté entre l\’injection du premier et l\’injection du second. Ce délai minimum n\’est pas nécessaire entre deux vaccins inertes (ou un inerte et un vivant atténué) non administrés le même jour.</string>
     <string name="coAdDeux">La co-administration du vaccin antipneumococcique et VZV est contre-indiquée pour des raisons de baisse d\’efficacité vaccinale.\n</string>
