@@ -71,5 +71,3 @@ var autresVVA = Vaccin(
 
 // Les matrices
 var vaccinArray = listOf<Vaccin>(ROR, VHB, VZV, VHA, DTP, grippe, pneumocoque, autresVVA)
-var vaccinsRecommandés = listOf<Vaccin>()
-var vaccinsInterdits = listOf<Vaccin>()

@@ -199,7 +199,7 @@ object VaccinAssistantExpert {
 
 
     fun removeVaccinFromArray(name:String) {
-        vaccinsRecommandés.dropWhile { vaccin -> vaccin.nom == name }
+        VaccinAssistant.vaccinsRecommandés.dropWhile { vaccin -> vaccin.nom == name }
     }
 
     fun resetExpert(){

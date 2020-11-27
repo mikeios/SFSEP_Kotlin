@@ -8,6 +8,10 @@ import java.time.format.DateTimeFormatter
 import kotlin.properties.Delegates
 
 object VaccinAssistant {
+    // Les arrays avec les vaccins en définitif
+    var vaccinsRecommandés = listOf<Vaccin>()
+    var vaccinsInterdits = listOf<Vaccin>()
+
     // Gestion des dates
     val formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy")
 
@@ -252,6 +256,9 @@ object VaccinAssistant {
         }
         if (!doitFaireVZV && !doitFaireVVA && !doitFaireVI) {
             coAdministration = getResourceString(R.string.coAdSix)
+        }
+        if (coAdministration == "") {
+            coAdministration = getResourceString(R.string.coAdministration)
         }
     }
 
