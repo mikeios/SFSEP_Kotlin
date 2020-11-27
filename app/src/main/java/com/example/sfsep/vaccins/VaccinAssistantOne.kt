@@ -11,7 +11,7 @@ import com.example.sfsep.R
 import com.example.sfsep.generalModel.DisclaimerManager
 import com.example.sfsep.generalModel.MenuManager
 import com.example.sfsep.generalModel.ResourcesManager
-
+//
 class VaccinAssistantOne : AppCompatActivity() {
     val menuManager = MenuManager(this)
 
