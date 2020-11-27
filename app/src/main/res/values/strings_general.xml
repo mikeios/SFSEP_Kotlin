@@ -39,4 +39,5 @@
     <string name="disclaimer_message">Cet assistant permet d\'obtenir des conseils concernant la conduite à tenir à proposer à votre patient.\nIl ne s\'agit pas d\'un outil de diagnostic ou de prise de décision médicale.</string>
     <string name="alert_invalidData_title">Données invalides</string>
     <string name="alert_ddn_message">Entrer une date de naissance valide au format MM/AAAA</string>
+    <string name="alert_dtp_message">Entrer une date de naissance valide au format MM/AAAA, ou entrer 0 si date non connue</string>
 </resources>

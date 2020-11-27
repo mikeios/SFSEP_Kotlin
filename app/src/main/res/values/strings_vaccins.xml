@@ -36,6 +36,15 @@
     <string name="ui_naif">Naïf</string>
     <string name="ui_immunomodulateur">Immunomodulateur</string>
     <string name="ui_immunosuppresseur">Immunosuppresseur</string>
+    <string name="ui_vaccin_zero_nsp">O / ne sait pas</string>
+    <string name="ui_1">1</string>
+    <string name="ui_2">2</string>
+    <string name="ui_3">3</string>
+    <string name="ui_less3">Moins de 3</string>
+    <string name="ui_vaccin_negatif_nsp">Négatif / ne sait pas</string>
+    <string name="ui_vaccin_negative_nsp">Négative / ne sait pas</string>
+    <string name="ui_positif">Positif</string>
+    <string name="ui_positive">Positive</string>
     //Vaccins et conseils
     <string name="quandVacciner">Vaccination possible sans restriction particulière</string>
     <string name="quandVaccinerDeux">"Attendre au moins 3 mois après l\'arrêt du traitement immunosuppresseur actuel avant d\'administrer un vaccin vivant (6 mois pour un anti CD20).\n</string>

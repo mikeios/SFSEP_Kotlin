@@ -16,7 +16,7 @@ object VaccinAssistant {
             prep, old, new ->
         ddnIsValid = isValidDate(new)
         if (dateDeNaissance != null) {
-            val date1980String = "01 01 1980"
+            val date1980String = "01/01/1980"
             val date1980 = LocalDate.parse(date1980String, formatter)
             before1980 = dateDeNaissance!!.isBefore(date1980)
         }

@@ -8,7 +8,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/edssTable"
-        android:layout_width="404dp"
+        android:layout_width="0dp"
         android:layout_height="437dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
@@ -25,7 +25,9 @@
         android:text="@string/edss"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintEnd_toStartOf="@+id/edssResult"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edssTable" />
 
@@ -38,6 +40,8 @@
         android:fontFamily="sans-serif-light"
         android:text="3.0"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toStartOf="@+id/resetButton"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/edssTable" />
 

@@ -60,9 +60,11 @@ object VaccinAssistantExpert {
         return age
     }
 
+
+
     fun checkDateValidity(dateString: String): Boolean {
         if (isValidDate(dateString)) {
-            val ddn = LocalDate.parse(dateString, VaccinAssistant.formatter)
+            val ddn = LocalDate.parse("01/" + dateString, VaccinAssistant.formatter)
             return !ddn.isAfter(LocalDate.now())
         } else {
             return false
